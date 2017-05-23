@@ -1,0 +1,196 @@
+{
+  "testId" : "1-home-page-on-a-small-mobile-device",
+  "name" : "Home page on a small mobile device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://pb.dev.quovasys.net/     798x1080",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "wait 11s",
+        "status" : "info",
+        "time" : 1495534305835,
+        "type" : "node"
+      }, {
+        "name" : "check   home-page.gspec",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: home-page.gspec included tags: ",
+          "status" : "error",
+          "time" : 1495534317673,
+          "includedTags" : [ ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "home-page.gspec",
+              "lineNumber" : 18
+            },
+            "objects" : [ ],
+            "sections" : [ {
+              "name" : "Logo",
+              "place" : {
+                "filePath" : "home-page.gspec",
+                "lineNumber" : 19
+              },
+              "objects" : [ {
+                "name" : "logo",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 21
+                  },
+                  "name" : "inside container 19 px top",
+                  "highlight" : [ "logo", "container" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 22
+                  },
+                  "name" : "inside container 20 px left",
+                  "highlight" : [ "logo", "container" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 23
+                  },
+                  "name" : "left-of container-search 18px",
+                  "errors" : [ "\"logo\" is 19px left of \"container-search\" instead of 18px" ],
+                  "highlight" : [ "logo", "container-search" ]
+                } ]
+              }, {
+                "name" : "menu",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 25
+                  },
+                  "name" : "height 103px",
+                  "highlight" : [ "menu" ]
+                } ]
+              }, {
+                "name" : "login-register",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 27
+                  },
+                  "name" : "inside container 19px top",
+                  "highlight" : [ "login-register", "container" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 28
+                  },
+                  "name" : "inside menu 18px bottom",
+                  "highlight" : [ "login-register", "menu" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 29
+                  },
+                  "name" : "left-of nav-button 20px",
+                  "highlight" : [ "login-register", "nav-button" ]
+                } ]
+              }, {
+                "name" : "nav-button",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 31
+                  },
+                  "name" : "inside container 20px right",
+                  "errors" : [ "\"nav-button\" is 21px right instead of 20px" ],
+                  "highlight" : [ "nav-button", "container" ]
+                } ]
+              }, {
+                "name" : "menu-dropdown-li",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 33
+                  },
+                  "name" : "height 81 px",
+                  "highlight" : [ "menu-dropdown-li" ]
+                } ]
+              }, {
+                "name" : "menu-dropdown-li-a",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 35
+                  },
+                  "name" : "inside menu-dropdown-li 22 px left",
+                  "highlight" : [ "menu-dropdown-li-a", "menu-dropdown-li" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 36
+                  },
+                  "name" : "inside menu-dropdown-li 25px right",
+                  "highlight" : [ "menu-dropdown-li-a", "menu-dropdown-li" ]
+                } ]
+              }, {
+                "name" : "menu-dropdown-li-second",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "home-page.gspec",
+                    "lineNumber" : 38
+                  },
+                  "name" : "height 63 px",
+                  "highlight" : [ "menu-dropdown-li-second" ]
+                } ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "container" : {
+              "area" : [ 0, 0, 765, 86 ]
+            },
+            "menu-dropdown-li-a" : {
+              "area" : [ 22, 103, 718, 81 ]
+            },
+            "menu-dropdown-li-second" : {
+              "area" : [ 0, 184, 765, 63 ]
+            },
+            "logo" : {
+              "area" : [ 20, 19, 57, 66 ]
+            },
+            "menu" : {
+              "area" : [ 0, 0, 765, 103 ]
+            },
+            "menu-dropdown-li" : {
+              "area" : [ 0, 103, 765, 81 ]
+            },
+            "login-register" : {
+              "area" : [ 459, 19, 197, 66 ]
+            },
+            "nav-button" : {
+              "area" : [ 676, 19, 68, 61 ]
+            },
+            "container-search" : {
+              "area" : [ 96, 19, 555, 66 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1495534316838,
+        "type" : "node"
+      } ],
+      "time" : 1495534301974,
+      "type" : "node"
+    } ]
+  }
+}
