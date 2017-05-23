@@ -6,7 +6,7 @@
     menu     .transparent_menu
     container-search    .container-inline
     login-register     .contextual-links-region ul.menu li.first a
-    nav-button     .mobile_nav_trigger i.fa
+    nav-button     .mobile_nav_trigger a
     menu-dropdown-li  .responsive_nav ul li.first
     menu-dropdown-li-a  .responsive_nav ul li.first a
     menu-dropdown-li-second .responsive_nav ul li.collapsed
