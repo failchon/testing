@@ -8,7 +8,7 @@
       "nodes" : [ {
         "name" : "wait 11s",
         "status" : "info",
-        "time" : 1495615676280,
+        "time" : 1495616015635,
         "type" : "node"
       }, {
         "name" : "check   header.gspec",
@@ -16,7 +16,7 @@
         "nodes" : [ {
           "name" : "Check layout: header.gspec included tags: ",
           "status" : "error",
-          "time" : 1495615690669,
+          "time" : 1495616029975,
           "includedTags" : [ ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -75,25 +75,10 @@
                   "errors" : [ "\"titles\" is 39px bottom instead of 46px" ],
                   "highlight" : [ "titles", "icons" ]
                 } ]
-              }, {
-                "name" : "bodies",
-                "specs" : [ {
-                  "status" : "error",
-                  "place" : {
-                    "filePath" : "header.gspec",
-                    "lineNumber" : 22
-                  },
-                  "name" : "near titles 23 px bottom",
-                  "errors" : [ "\"bodies\" is 0px bottom instead of 23px" ],
-                  "highlight" : [ "bodies", "titles" ]
-                } ]
               } ]
             } ]
           } ],
           "objects" : {
-            "bodies" : {
-              "area" : [ 72, 910, 605, 54 ]
-            },
             "field-content" : {
               "area" : [ 0, 102, 749, 377 ]
             },
@@ -110,10 +95,10 @@
           "screenshot" : "layout-1-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1495615687281,
+        "time" : 1495616026636,
         "type" : "node"
       } ],
-      "time" : 1495615672451,
+      "time" : 1495616011810,
       "type" : "node"
     } ]
   }
