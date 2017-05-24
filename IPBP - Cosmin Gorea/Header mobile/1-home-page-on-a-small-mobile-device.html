@@ -17,7 +17,7 @@ var reportData = {
       "nodes" : [ {
         "name" : "wait 11s",
         "status" : "info",
-        "time" : 1495616015635,
+        "time" : 1495622382869,
         "type" : "node"
       }, {
         "name" : "check   header.gspec",
@@ -25,89 +25,84 @@ var reportData = {
         "nodes" : [ {
           "name" : "Check layout: header.gspec included tags: ",
           "status" : "error",
-          "time" : 1495616029975,
+          "time" : 1495622397231,
           "includedTags" : [ ],
           "excludedTags" : [ ],
           "sections" : [ {
-            "name" : "Header",
+            "name" : "Body",
             "place" : {
               "filePath" : "header.gspec",
-              "lineNumber" : 12
+              "lineNumber" : 13
             },
-            "objects" : [ ],
-            "sections" : [ {
-              "name" : "Logo",
-              "place" : {
-                "filePath" : "header.gspec",
-                "lineNumber" : 13
-              },
-              "objects" : [ {
-                "name" : "field-content",
-                "specs" : [ {
-                  "status" : "error",
-                  "place" : {
-                    "filePath" : "header.gspec",
-                    "lineNumber" : 15
-                  },
-                  "name" : "height 382 px",
-                  "errors" : [ "\"field-content\" height is 377px instead of 382px" ],
-                  "highlight" : [ "field-content" ]
-                } ]
+            "objects" : [ {
+              "name" : "field-content",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "header.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "height 382 px",
+                "errors" : [ "\"field-content\" height is 377px instead of 382px" ],
+                "highlight" : [ "field-content" ]
+              } ]
+            }, {
+              "name" : "icons-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "header.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "inside pane 50 px top",
+                "highlight" : [ "icons-1", "pane" ]
               }, {
-                "name" : "icons",
-                "specs" : [ {
-                  "status" : "info",
-                  "place" : {
-                    "filePath" : "header.gspec",
-                    "lineNumber" : 17
-                  },
-                  "name" : "inside pane 50 px top",
-                  "highlight" : [ "icons", "pane" ]
-                }, {
-                  "status" : "info",
-                  "place" : {
-                    "filePath" : "header.gspec",
-                    "lineNumber" : 18
-                  },
-                  "name" : "width 300 px",
-                  "highlight" : [ "icons" ]
-                } ]
-              }, {
-                "name" : "titles",
-                "specs" : [ {
-                  "status" : "error",
-                  "place" : {
-                    "filePath" : "header.gspec",
-                    "lineNumber" : 20
-                  },
-                  "name" : "near icons 46 px bottom",
-                  "errors" : [ "\"titles\" is 39px bottom instead of 46px" ],
-                  "highlight" : [ "titles", "icons" ]
-                } ]
+                "status" : "info",
+                "place" : {
+                  "filePath" : "header.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "width 300 px",
+                "highlight" : [ "icons-1" ]
+              } ]
+            }, {
+              "name" : "titles",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "header.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "near icon 46 px bottom",
+                "errors" : [ "\"titles\" is 39px bottom instead of 46px" ],
+                "highlight" : [ "titles", "icon" ]
               } ]
             } ]
           } ],
           "objects" : {
+            "icons-1" : {
+              "area" : [ 224, 530, 300, 298 ]
+            },
+            "icon" : {
+              "area" : [ 224, 530, 300, 298 ]
+            },
             "field-content" : {
-              "area" : [ 0, 102, 749, 377 ]
+              "area" : [ 0, 103, 749, 377 ]
             },
             "titles" : {
-              "area" : [ 72, 866, 605, 44 ]
-            },
-            "icons" : {
-              "area" : [ 224, 529, 300, 298 ]
+              "area" : [ 72, 867, 605, 44 ]
             },
             "pane" : {
-              "area" : [ 72, 479, 605, 502 ]
+              "area" : [ 72, 480, 605, 502 ]
             }
           },
           "screenshot" : "layout-1-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1495616026636,
+        "time" : 1495622393870,
         "type" : "node"
       } ],
-      "time" : 1495616011810,
+      "time" : 1495622379036,
       "type" : "node"
     } ]
   }
