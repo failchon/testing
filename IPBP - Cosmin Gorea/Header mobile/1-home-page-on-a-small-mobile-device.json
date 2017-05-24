@@ -1,0 +1,120 @@
+{
+  "testId" : "1-home-page-on-a-small-mobile-device",
+  "name" : "Home page on a small mobile device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://pb.dev.quovasys.net/     782x1080",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "wait 11s",
+        "status" : "info",
+        "time" : 1495615676280,
+        "type" : "node"
+      }, {
+        "name" : "check   header.gspec",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: header.gspec included tags: ",
+          "status" : "error",
+          "time" : 1495615690669,
+          "includedTags" : [ ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "header.gspec",
+              "lineNumber" : 12
+            },
+            "objects" : [ ],
+            "sections" : [ {
+              "name" : "Logo",
+              "place" : {
+                "filePath" : "header.gspec",
+                "lineNumber" : 13
+              },
+              "objects" : [ {
+                "name" : "field-content",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 15
+                  },
+                  "name" : "height 382 px",
+                  "errors" : [ "\"field-content\" height is 377px instead of 382px" ],
+                  "highlight" : [ "field-content" ]
+                } ]
+              }, {
+                "name" : "icons",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 17
+                  },
+                  "name" : "inside pane 50 px top",
+                  "highlight" : [ "icons", "pane" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 18
+                  },
+                  "name" : "width 300 px",
+                  "highlight" : [ "icons" ]
+                } ]
+              }, {
+                "name" : "titles",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 20
+                  },
+                  "name" : "near icons 46 px bottom",
+                  "errors" : [ "\"titles\" is 39px bottom instead of 46px" ],
+                  "highlight" : [ "titles", "icons" ]
+                } ]
+              }, {
+                "name" : "bodies",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 22
+                  },
+                  "name" : "near titles 23 px bottom",
+                  "errors" : [ "\"bodies\" is 0px bottom instead of 23px" ],
+                  "highlight" : [ "bodies", "titles" ]
+                } ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "bodies" : {
+              "area" : [ 72, 910, 605, 54 ]
+            },
+            "field-content" : {
+              "area" : [ 0, 102, 749, 377 ]
+            },
+            "titles" : {
+              "area" : [ 72, 866, 605, 44 ]
+            },
+            "icons" : {
+              "area" : [ 224, 529, 300, 298 ]
+            },
+            "pane" : {
+              "area" : [ 72, 479, 605, 502 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1495615687281,
+        "type" : "node"
+      } ],
+      "time" : 1495615672451,
+      "type" : "node"
+    } ]
+  }
+}

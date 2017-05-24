@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "Home page on a small mobile device",
+    "startedAt" : 1495534301972,
+    "endedAt" : 1495534318481,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 11,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 13
+    },
+    "testId" : "1-home-page-on-a-small-mobile-device",
+    "duration" : 16509,
+    "failed" : true
+  } ]
+}

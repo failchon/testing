@@ -1,0 +1,4 @@
+Home page on a small mobile device
+    http://pb.dev.quovasys.net/     798x1080
+        wait 11s
+        check   home-page.gspec 

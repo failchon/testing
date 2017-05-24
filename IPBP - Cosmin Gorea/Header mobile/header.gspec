@@ -1,0 +1,20 @@
+@import galen-extras/galen-extras-rules.gspec
+
+@objects
+    field-content     div.content .field-items .slide-home
+    icons     div.content .field-items img.size-bucket-image
+    pane      .col-lg-4 .pane-content
+    titles    div.content .field-items .bucket-title
+    bodies    div.content .field-items .bucket-body
+@groups
+    
+
+= Header =
+ = Logo =
+  field-content:
+    height 382 px
+  icons:
+    inside pane 50 px top
+    width 300 px
+  titles:
+    near icons 46 px bottom
