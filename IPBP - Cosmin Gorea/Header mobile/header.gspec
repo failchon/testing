@@ -22,3 +22,4 @@
 = Things I couldn't test =
  = top distance between 2nd bucket item and the text above it =
  = top distance between the two texts below a bucket item, meaning the distance between the text content and text title =
+ = there is also the font-size, color and font-family of the texts, but i just didnt want to make that = 
