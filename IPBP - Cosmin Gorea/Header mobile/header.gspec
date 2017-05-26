@@ -7,19 +7,91 @@
     pane      .col-lg-4 .pane-content
     titles    div.content .field-items .bucket-title
     bodies    div.content .field-items .bucket-body
+    text-register     #node-410 .node-register .register-body
+    button-register   #node-410 .node-register .padding-button1 a
+    laptop-pic     #node-410 .node-register p img
+    field-register2 #node-410 .field-name-field-body2
+    button-register2   #node-410 .padding-button2 a
+    content-store     #node-425 .content
+    store-pic     #node-425 img.size-register-today-269x243
+    list425-*     #node-425 .text-body ul li
+    list425bullet-*     #node-425 .text-body ul li:before
+    button-store     #node-425 .text-body .register-button2
+    email-pic     #node-423 img.size-register-today-269x243
+    button-email     #node-423 .field-items .register-button2
+    field-email     #node-423
+    news-content     .pane-news
+    header-news    .pane-news .view-id-news .view-header
+    image-news-*     .pane-news .views-field-field-global-main-image img
+    field-register3     .register_today
+    register3-pic       #node-422 .size-register-today-269x243
+    button-register3     #node-422 .field-items .register-button2
 @groups
     
 
 = Body =
-  field-content:
-    height 382 px
-  icons-1:
-    inside pane 50 px top
-    width 300 px
-  titles:
-    near icon 46 px bottom
+ = Upper =
+   field-content:
+     height 382 px
+   icons-1:
+     inside pane 50 px top
+     width 300 px
+   titles:
+     near icon 46 px bottom
+ = Register =
+   button-register:
+     width 278 px
+     height 102 px
+     above laptop-pic 40 px
+   button-register2:
+     width 336 px
+     height 100 px
+     inside field-register2 40 px bottom
+   store-pic:
+     width 221 px
+     height 210 px
+     below field-register2 44 px
+   list425-1:
+     inside content-store 136px left
+   button-store:
+     width 338 px
+     height 100 px
+   email-pic:
+     width 256 px
+     height 248 px
+     inside field-email 50 px top
+   button-email:
+     width 395 px
+     height 100 px
+     inside field-email 60 px bottom
+   field-email:
+     above news-content 65 px
+   image-news-1:
+     width 639 px
+     height 436 px
+     above image-news-2 50 px
+     inside news-content 66 px left
+     inside news-content 66 px right
+     below header-news 46 px
+   register3-pic:
+     inside field-register3 74 px top
+     height 242 px
+   button-register3:
+     inside field-register3 50 px bottom
+
+  
+
+
 
 = Things I couldn't test =
  = top distance between 2nd bucket item and the text above it =
  = top distance between the two texts below a bucket item, meaning the distance between the text content and text title =
  = there is also the font-size, color and font-family of the texts, but i just didn't want to make that = 
+ = https://www.screencast.com/t/XkuXkfGyfq =
+ = https://www.screencast.com/t/eHzImGmOnjj =
+ = https://www.screencast.com/t/D3lPaeG7 =
+ = https://www.screencast.com/t/Llq1ldlM =
+ = https://www.screencast.com/t/qv3UQRltEP =
+ = https://www.screencast.com/t/QsJpCIu72Jb =
+ = https://www.screencast.com/t/sb22ilxqL =
+

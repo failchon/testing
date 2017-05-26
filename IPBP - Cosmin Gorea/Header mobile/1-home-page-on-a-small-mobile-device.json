@@ -8,7 +8,7 @@
       "nodes" : [ {
         "name" : "wait 11s",
         "status" : "info",
-        "time" : 1495623758726,
+        "time" : 1495784652793,
         "type" : "node"
       }, {
         "name" : "check   header.gspec",
@@ -16,84 +16,436 @@
         "nodes" : [ {
           "name" : "Check layout: header.gspec included tags: ",
           "status" : "error",
-          "time" : 1495623773167,
+          "time" : 1495784668858,
           "includedTags" : [ ],
           "excludedTags" : [ ],
           "sections" : [ {
             "name" : "Body",
             "place" : {
               "filePath" : "header.gspec",
-              "lineNumber" : 13
+              "lineNumber" : 32
             },
-            "objects" : [ {
-              "name" : "field-content",
-              "specs" : [ {
-                "status" : "error",
-                "place" : {
-                  "filePath" : "header.gspec",
-                  "lineNumber" : 15
-                },
-                "name" : "height 382 px",
-                "errors" : [ "\"field-content\" height is 377px instead of 382px" ],
-                "highlight" : [ "field-content" ]
-              } ]
-            }, {
-              "name" : "icons-1",
-              "specs" : [ {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "header.gspec",
-                  "lineNumber" : 17
-                },
-                "name" : "inside pane 50 px top",
-                "highlight" : [ "icons-1", "pane" ]
+            "objects" : [ ],
+            "sections" : [ {
+              "name" : "Upper",
+              "place" : {
+                "filePath" : "header.gspec",
+                "lineNumber" : 33
+              },
+              "objects" : [ {
+                "name" : "field-content",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 35
+                  },
+                  "name" : "height 382 px",
+                  "errors" : [ "\"field-content\" height is 377px instead of 382px" ],
+                  "highlight" : [ "field-content" ]
+                } ]
               }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "header.gspec",
-                  "lineNumber" : 18
-                },
-                "name" : "width 300 px",
-                "highlight" : [ "icons-1" ]
+                "name" : "icons-1",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 37
+                  },
+                  "name" : "inside pane 50 px top",
+                  "errors" : [ "\"icons-1\" is 51px top instead of 50px" ],
+                  "highlight" : [ "icons-1", "pane" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 38
+                  },
+                  "name" : "width 300 px",
+                  "errors" : [ "\"icons-1\" width is 256px instead of 300px" ],
+                  "highlight" : [ "icons-1" ]
+                } ]
+              }, {
+                "name" : "titles",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 40
+                  },
+                  "name" : "near icon 46 px bottom",
+                  "errors" : [ "\"titles\" is 37px bottom instead of 46px" ],
+                  "highlight" : [ "titles", "icon" ]
+                } ]
               } ]
             }, {
-              "name" : "titles",
-              "specs" : [ {
-                "status" : "error",
-                "place" : {
-                  "filePath" : "header.gspec",
-                  "lineNumber" : 20
-                },
-                "name" : "near icon 46 px bottom",
-                "errors" : [ "\"titles\" is 39px bottom instead of 46px" ],
-                "highlight" : [ "titles", "icon" ]
+              "name" : "Register",
+              "place" : {
+                "filePath" : "header.gspec",
+                "lineNumber" : 41
+              },
+              "objects" : [ {
+                "name" : "button-register",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 43
+                  },
+                  "name" : "width 278 px",
+                  "errors" : [ "\"button-register\" width is 276px instead of 278px" ],
+                  "highlight" : [ "button-register" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 44
+                  },
+                  "name" : "height 102 px",
+                  "errors" : [ "\"button-register\" height is 100px instead of 102px" ],
+                  "highlight" : [ "button-register" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 45
+                  },
+                  "name" : "above laptop-pic 40 px",
+                  "errors" : [ "\"button-register\" is 39px above \"laptop-pic\" instead of 40px" ],
+                  "highlight" : [ "button-register", "laptop-pic" ]
+                } ]
+              }, {
+                "name" : "button-register2",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 47
+                  },
+                  "name" : "width 336 px",
+                  "errors" : [ "\"button-register2\" width is 337px instead of 336px" ],
+                  "highlight" : [ "button-register2" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 48
+                  },
+                  "name" : "height 100 px",
+                  "errors" : [ "\"button-register2\" height is 102px instead of 100px" ],
+                  "highlight" : [ "button-register2" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 49
+                  },
+                  "name" : "inside field-register2 40 px bottom",
+                  "errors" : [ "\"button-register2\" is 33px bottom instead of 40px" ],
+                  "highlight" : [ "button-register2", "field-register2" ]
+                } ]
+              }, {
+                "name" : "store-pic",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 51
+                  },
+                  "name" : "width 221 px",
+                  "errors" : [ "\"store-pic\" width is 248px instead of 221px" ],
+                  "highlight" : [ "store-pic" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 52
+                  },
+                  "name" : "height 210 px",
+                  "errors" : [ "\"store-pic\" height is 214px instead of 210px" ],
+                  "highlight" : [ "store-pic" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 53
+                  },
+                  "name" : "below field-register2 44 px",
+                  "errors" : [ "\"store-pic\" is 45px below \"field-register2\" instead of 44px" ],
+                  "highlight" : [ "store-pic", "field-register2" ]
+                } ]
+              }, {
+                "name" : "list425-1",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 55
+                  },
+                  "name" : "inside content-store 136px left",
+                  "errors" : [ "\"list425-1\" is 143px left instead of 136px" ],
+                  "highlight" : [ "list425-1", "content-store" ]
+                } ]
+              }, {
+                "name" : "button-store",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 57
+                  },
+                  "name" : "width 338 px",
+                  "errors" : [ "\"button-store\" width is 337px instead of 338px" ],
+                  "highlight" : [ "button-store" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 58
+                  },
+                  "name" : "height 100 px",
+                  "errors" : [ "\"button-store\" height is 102px instead of 100px" ],
+                  "highlight" : [ "button-store" ]
+                } ]
+              }, {
+                "name" : "email-pic",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 60
+                  },
+                  "name" : "width 256 px",
+                  "errors" : [ "\"email-pic\" width is 306px instead of 256px" ],
+                  "highlight" : [ "email-pic" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 61
+                  },
+                  "name" : "height 248 px",
+                  "highlight" : [ "email-pic" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 62
+                  },
+                  "name" : "inside field-email 50 px top",
+                  "errors" : [ "\"email-pic\" is 53px top instead of 50px" ],
+                  "highlight" : [ "email-pic", "field-email" ]
+                } ]
+              }, {
+                "name" : "button-email",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 64
+                  },
+                  "name" : "width 395 px",
+                  "errors" : [ "\"button-email\" width is 394px instead of 395px" ],
+                  "highlight" : [ "button-email" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 65
+                  },
+                  "name" : "height 100 px",
+                  "errors" : [ "\"button-email\" height is 101px instead of 100px" ],
+                  "highlight" : [ "button-email" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 66
+                  },
+                  "name" : "inside field-email 60 px bottom",
+                  "errors" : [ "\"button-email\" is 61px bottom instead of 60px" ],
+                  "highlight" : [ "button-email", "field-email" ]
+                } ]
+              }, {
+                "name" : "field-email",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 68
+                  },
+                  "name" : "above news-content 65 px",
+                  "errors" : [ "\"field-email\" is 69px above \"news-content\" instead of 65px" ],
+                  "highlight" : [ "field-email", "news-content" ]
+                } ]
+              }, {
+                "name" : "image-news-1",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 70
+                  },
+                  "name" : "width 639 px",
+                  "errors" : [ "\"image-news-1\" width is 618px instead of 639px" ],
+                  "highlight" : [ "image-news-1" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 71
+                  },
+                  "name" : "height 436 px",
+                  "errors" : [ "\"image-news-1\" height is 422px instead of 436px" ],
+                  "highlight" : [ "image-news-1" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 72
+                  },
+                  "name" : "above image-news-2 50 px",
+                  "highlight" : [ "image-news-1", "image-news-2" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 73
+                  },
+                  "name" : "inside news-content 66 px left",
+                  "errors" : [ "\"image-news-1\" is 65px left instead of 66px" ],
+                  "highlight" : [ "image-news-1", "news-content" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 74
+                  },
+                  "name" : "inside news-content 66 px right",
+                  "highlight" : [ "image-news-1", "news-content" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 75
+                  },
+                  "name" : "below header-news 46 px",
+                  "highlight" : [ "image-news-1", "header-news" ]
+                } ]
+              }, {
+                "name" : "register3-pic",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 77
+                  },
+                  "name" : "inside field-register3 74 px top",
+                  "errors" : [ "\"register3-pic\" is 75px top instead of 74px" ],
+                  "highlight" : [ "register3-pic", "field-register3" ]
+                }, {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 78
+                  },
+                  "name" : "height 242 px",
+                  "errors" : [ "\"register3-pic\" height is 245px instead of 242px" ],
+                  "highlight" : [ "register3-pic" ]
+                } ]
+              }, {
+                "name" : "button-register3",
+                "specs" : [ {
+                  "status" : "error",
+                  "place" : {
+                    "filePath" : "header.gspec",
+                    "lineNumber" : 80
+                  },
+                  "name" : "inside field-register3 50 px bottom",
+                  "errors" : [ "\"button-register3\" is 47px bottom instead of 50px" ],
+                  "highlight" : [ "button-register3", "field-register3" ]
+                } ]
               } ]
             } ]
           } ],
           "objects" : {
-            "icons-1" : {
-              "area" : [ 224, 530, 300, 298 ]
+            "news-content" : {
+              "area" : [ 0, 4853, 749, 1499 ]
+            },
+            "header-news" : {
+              "area" : [ 0, 4880, 749, 28 ]
             },
             "icon" : {
-              "area" : [ 224, 530, 300, 298 ]
+              "area" : [ 246, 531, 256, 255 ]
+            },
+            "email-pic" : {
+              "area" : [ 221, 4114, 306, 248 ]
             },
             "field-content" : {
               "area" : [ 0, 103, 749, 377 ]
             },
+            "content-store" : {
+              "area" : [ 0, 3228, 749, 833 ]
+            },
             "titles" : {
-              "area" : [ 72, 867, 605, 44 ]
+              "area" : [ 65, 823, 619, 44 ]
+            },
+            "button-register" : {
+              "area" : [ 236, 2394, 276, 100 ]
+            },
+            "button-email" : {
+              "area" : [ 177, 4622, 394, 101 ]
+            },
+            "image-news-1" : {
+              "area" : [ 65, 4954, 618, 422 ]
+            },
+            "button-register2" : {
+              "area" : [ 205, 3073, 337, 102 ]
+            },
+            "image-news-2" : {
+              "area" : [ 65, 5426, 618, 422 ]
+            },
+            "button-register3" : {
+              "area" : [ 271, 6907, 207, 97 ]
+            },
+            "list425-1" : {
+              "area" : [ 143, 3698, 518, 76 ]
+            },
+            "field-email" : {
+              "area" : [ 0, 4061, 749, 723 ]
+            },
+            "field-register3" : {
+              "area" : [ 0, 6367, 749, 684 ]
+            },
+            "icons-1" : {
+              "area" : [ 246, 531, 256, 255 ]
+            },
+            "field-register2" : {
+              "area" : [ 0, 2936, 749, 272 ]
+            },
+            "button-store" : {
+              "area" : [ 207, 3897, 337, 102 ]
+            },
+            "register3-pic" : {
+              "area" : [ 209, 6442, 329, 245 ]
+            },
+            "store-pic" : {
+              "area" : [ 250, 3253, 248, 214 ]
             },
             "pane" : {
-              "area" : [ 72, 480, 605, 502 ]
+              "area" : [ 15, 480, 719, 451 ]
+            },
+            "laptop-pic" : {
+              "area" : [ 14, 2533, 720, 424 ]
             }
           },
           "screenshot" : "layout-1-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1495623769728,
+        "time" : 1495784663795,
         "type" : "node"
       } ],
-      "time" : 1495623754891,
+      "time" : 1495784648979,
       "type" : "node"
     } ]
   }
